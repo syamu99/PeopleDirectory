@@ -1,0 +1,19 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.indexNavigation {
+  margin-bottom: 1em;
+
+  div[role^='tablist'] {
+    white-space: normal;
+
+    button:last-child {
+      font-weight: 600;
+    }
+  }
+  .link-128{
+    margin-right: 0px !important;
+  }
+	[class^='ms-SearchBox'] {
+		max-width: 100%;
+	}
+}

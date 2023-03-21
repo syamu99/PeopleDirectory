@@ -1,0 +1,33 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at http://aka.ms/fabric-assets-license
+*/
+.persona_card {
+  align-items: center;
+  border: 1px solid "[theme:neutralLight, default: #eaeaea]";
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  position: relative;
+  max-width: var(--maxPersonaWidth);
+}
+.persona_card .persona {
+  align-items: center;
+  display: inline-flex;
+  height: 1.4rem;
+  justify-content: center;
+  position: absolute;
+  right: 1rem;
+  width: 1.4rem;
+}
+.persona_card .persona i {
+  color: "[theme:themeSecondary, default: #2b88d8]";
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+.persona_card .callout {
+  display: hidden;
+}
+.persona_card .calloutShow {
+  display: block;
+}/*# sourceMappingURL=PeopleList.module.css.map */

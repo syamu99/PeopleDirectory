@@ -1,0 +1,15 @@
+/*
+  Your use of the content in the files referenced here is subject to the terms of the license at http://aka.ms/fabric-assets-license
+*/
+.indexNavigation {
+  margin-bottom: 1em;
+}
+.indexNavigation div[role^=tablist] {
+  white-space: normal;
+}
+.indexNavigation div[role^=tablist] button:last-child {
+  font-weight: 600;
+}
+.indexNavigation [class^=ms-SearchBox] {
+  max-width: 100%;
+}/*# sourceMappingURL=IndexNavigation.module.css.map */
